@@ -16,5 +16,10 @@
             
       </a-entity>
     </a-scene>
+    <script>
+    if(window.location.protocol != 'https:') {
+      location.href.protocol = location.protocol.href.replace("http://", "https://");
+    }
+    </script>
   </body>
 </html>
