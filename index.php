@@ -1,8 +1,10 @@
+<!doctype HTML>
+<html>
+<script src="/A-Frame/aframe.min.js"></script>
 <script src="/A-Frame/aframe-ar.js"></script>
 <script src="/A-Frame/aframe-gif-shader.min.js"></script>
 <script src="/A-Frame/aframe-gif-component.min.js"></script>
   <body style='margin : 0px; overflow: hidden;'>
-    
     <a-scene embedded arjs vr-mode-ui="enabled: false">
             <a-assets>
                     
