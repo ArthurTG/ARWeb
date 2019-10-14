@@ -9,7 +9,7 @@
                     <a-asset-item id="object-mtl" src="BMW.mtl"></a-asset-item>
             </a-assets>         
         <a-marker-camera preset='hiro'>
-            <a-entity id="loadingEl" obj-model="obj: #object-obj; mtl: #object-mtl" scale=".01 .01 .01" loader></a-entity>
+            <a-entity id="loadingEl" obj-model="obj: #object-obj; mtl: #object-mtl" scale=".01 .01 .01" rotation="0 90 270" loader></a-entity>
         </a-marker-camera>
       <a-entity camera>
             
