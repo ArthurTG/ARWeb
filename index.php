@@ -1,9 +1,19 @@
 <!doctype HTML>
 <html>
-<script src="/A-Frame/aframe.min.js"></script>
-<script src="/A-Frame/aframe-ar.js"></script>
-<script src="/A-Frame/aframe-gif-shader.min.js"></script>
-<script src="/A-Frame/aframe-gif-component.min.js"></script>
+  <head>
+      <script src="/A-Frame/aframe.min.js"></script>
+      <script src="/A-Frame/aframe-ar.js"></script>
+      <script src="/A-Frame/aframe-gif-shader.min.js"></script>
+      <script src="/A-Frame/aframe-gif-component.min.js"></script>
+      <script type="text/javascript">
+      function Redirect()
+      {
+        window.location = "https://apparweb.herokuapp.com";
+      }
+          
+      </script>
+  </head>
+
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs vr-mode-ui="enabled: false">
             <a-assets>
@@ -16,10 +26,6 @@
             
       </a-entity>
     </a-scene>
-    <script>
-    if(window.location.protocol != 'https:') {
-      location.href.protocol = location.protocol.href.replace("http://", "https://");
-    }
-    </script>
+    
   </body>
 </html>
