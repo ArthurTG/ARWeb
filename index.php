@@ -12,7 +12,7 @@
                     
             </a-assets>         
         <a-marker preset='hiro'>
-            <a-entity gltf-model="url(integra.gltf)" scale=".01 .01 .01"></a-entity>
+            <a-entity gltf-model="url(integra.gltf)" scale=".025 .025 .025"></a-entity>
         </a-marker>
       <a-entity camera>
             
