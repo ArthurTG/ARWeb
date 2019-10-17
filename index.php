@@ -7,7 +7,7 @@
       <script src="/A-Frame/aframe-gif-component.min.js"></script>
   </head>
   <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs vr-mode-ui="enabled: false">
+    <a-scene embedded arjs= "debugUIEnabled:false" vr-mode-ui="enabled: false">
             <a-assets>
                     
             </a-assets>   
