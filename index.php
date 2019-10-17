@@ -12,11 +12,11 @@
                     
             </a-assets>   
       
-        <a-marker  type='pattern' url='/Marker/pattern-mente.patt'>
+        <a-marker  type='pattern' url='pattern-mente.patt'>
             <a-entity gltf-model="url(integra.gltf)" scale=".025 .025 .025"></a-entity>
         </a-marker>
       
-      <a-marker type='pattern' url='/Marker/pattern-cuerpo.patt'>
+      <a-marker type='pattern' url='pattern-cuerpo.patt'>
             <a-entity text="value: What's up" ></a-entity>
         </a-marker>
       
