@@ -12,12 +12,16 @@
                     
             </a-assets>   
       
-        <a-marker  type='pattern' url='pattern-mente.patt'>
-            <a-entity gltf-model="url(integra.gltf)" scale=".025 .025 .025"></a-entity>
+        <a-marker type='pattern' url='pattern-mente.patt'>
+            <a-gltf-model  src="integra.gltf" scale=".025 .025 .025"></a-gltf-model>
         </a-marker>
-      
-      <a-marker type='pattern' url='pattern-cuerpo.patt'>
-          <a-obj-model src="texto.obj" mtl="texto.mtl" scale="0.25 0.25 0.25"></a-obj-model>
+
+        <a-marker type='pattern' url='pattern-cuerpo.patt'>
+          <a-gltf-model  src="Mision.gltf" scale=".2 .2 .2"></a-gltf-model>
+        </a-marker>
+
+        <a-marker type='pattern' url='pattern-emociones.patt'>
+          <a-gltf-model  src="Vision.gltf" scale=".2 .2 .2"></a-gltf-model>
         </a-marker>
       
       <a-entity camera>
