@@ -17,7 +17,7 @@
         </a-marker>
       
       <a-marker type='pattern' url='pattern-cuerpo.patt'>
-            <a-entity text="value: What's up" ></a-entity>
+          <a-obj-model src="texto.obj" mtl="texto.mtl" scale="0.25 0.25 0.25"></a-obj-model>
         </a-marker>
       
       <a-entity camera>
