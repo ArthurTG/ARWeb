@@ -10,10 +10,16 @@
     <a-scene embedded arjs vr-mode-ui="enabled: false">
             <a-assets>
                     
-            </a-assets>         
-        <a-marker preset='hiro'>
+            </a-assets>   
+      
+        <a-marker  type='pattern' url='/Marker/pattern-mente.patt'>
             <a-entity gltf-model="url(integra.gltf)" scale=".025 .025 .025"></a-entity>
         </a-marker>
+      
+      <a-marker type='pattern' url='/Marker/pattern-cuerpo.patt'>
+            <a-entity text="value: What's up" ></a-entity>
+        </a-marker>
+      
       <a-entity camera>
             
       </a-entity>
