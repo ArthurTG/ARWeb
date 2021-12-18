@@ -13,7 +13,7 @@
                     
             </a-assets>   
       
-        <a-marker type='pattern' url='pattern-qr-code.patt'>
+        <a-marker type='pattern' url='pattern-marker.patt'>
             <a-gltf-model  src="amelia_watson/scene.gltf" scale=".025 .025 .025"></a-gltf-model>
         </a-marker>
       
