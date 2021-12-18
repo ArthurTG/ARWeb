@@ -14,7 +14,7 @@
             </a-assets>   
       
         <a-marker type='pattern' url='pattern-qr-code.patt'>
-            <a-gltf-model  src="integra.gltf" scale=".025 .025 .025"></a-gltf-model>
+            <a-gltf-model  src="amelia_watson/scene.gltf" scale=".025 .025 .025"></a-gltf-model>
         </a-marker>
       
       <a-entity camera>
