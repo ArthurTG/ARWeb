@@ -6,7 +6,7 @@
       <script src="/A-Frame/aframe-gif-shader.min.js"></script>
       <script src="/A-Frame/aframe-gif-component.min.js"></script>
   </head>
-  <body style='margin : 0px; overflow: hidden;'>
+  <!--<body style='margin : 0px; overflow: hidden;'>
     
     <a-scene embedded arjs= "debugUIEnabled:false" vr-mode-ui="enabled: false">
             <a-assets>
@@ -22,5 +22,14 @@
       </a-entity>
     </a-scene>
     
-  </body>
+  </body>-->
+  
+  <body>
+    <a-scene embedded arjs>
+      <a-entity scale=".2 .2 .2"> 
+        <a-entity gltf-model="#amelia" scale=".4 .4 .4" crossOrigin="anonymous">
+          </a-entity>
+        <a-marker-camera url='pattern-marker.patt'></a-marker-camera>
+      </a-scene>
+   </body>
 </html>
