@@ -18,7 +18,7 @@
         </a-marker>-->
       
       <a-entity camera>
-            <a-gltf-model  src="#amelia" scale=".01 .01 .01" rotation="-90. .0 .0"></a-gltf-model>
+            
       </a-entity>
     </a-scene>
     
