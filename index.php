@@ -17,7 +17,7 @@
             <a-gltf-model  src="#amelia" scale=".4 .4 .4" rotation="-90. .0 .0"></a-gltf-model>
         </a-marker>-->
       
-      <a-gltf-model  src="#amelia" scale=".1 .1 .1" rotation="-90. .0 .0"></a-gltf-model>
+      <a-gltf-model  src="#amelia" scale=".01 .01 .01" rotation="-90. .0 .0"></a-gltf-model>
       
       <a-entity camera>
             
