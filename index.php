@@ -10,11 +10,11 @@
     
     <a-scene embedded arjs= "debugUIEnabled:false" vr-mode-ui="enabled: false">
             <a-assets>
-                    
+                    a-asset-item id="amelia" src="amelia_watson/scene.gltf"></a-asset-item>
             </a-assets>   
       
         <a-marker type='pattern' url='pattern-marker.patt'>
-            <a-gltf-model  src="amelia_watson/scene.gltf" scale=".4 .4 .4"></a-gltf-model>
+            <a-gltf-model  src="#amelia" scale=".4 .4 .4"></a-gltf-model>
         </a-marker>
       
       <a-entity camera>
