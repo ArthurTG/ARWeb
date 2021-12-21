@@ -14,7 +14,7 @@
             </a-assets>   
       
         <a-marker type='pattern' url='pattern-marker.patt'>
-            <a-gltf-model  src="#amelia" scale=".4 .4 .4" rotation="90. .0 .0"></a-gltf-model>
+            <a-gltf-model  src="#amelia" scale=".4 .4 .4" rotation="-90. .0 .0"></a-gltf-model>
         </a-marker>
       
       <a-entity camera>
