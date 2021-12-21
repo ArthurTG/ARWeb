@@ -27,10 +27,9 @@
   <body>
     <a-scene embedded arjs>
       <a-entity scale=".2 .2 .2"> 
-        <a-entity gltf-model="#amelia" scale=".4 .4 .4" crossOrigin="anonymous">
-          </a-entity>
-        <a-marker-camera url='pattern-marker.patt'>
-        </a-marker-camera>
-     </a-scene>
-   </body>
+        <a-entity gltf-model="fox.glb" scale="3 3 3" crossOrigin="anonymous">
+        </a-entity>
+        <a-marker-camera preset='hiro'></a-marker-camera>
+        </a-scene>
+      </body>
 </html>
